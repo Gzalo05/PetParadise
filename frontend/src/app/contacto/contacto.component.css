@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+.contact-container {
+    background-color: #a6f4e7;
+    padding: 20px;
+    border-radius: 15px;
+    width: 490px;
+}
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.contact-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.form-check-label a {
+    color: #000;
+    text-decoration: underline;
+}
+.form-check-label input {
+    margin-right: 5px;
+}
+.submit-btn {
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+}
+.submit-btn:hover {
+    background-color: #333;
+}
+.pet-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.pet-images img {
+    width: 100%;
+    border-radius: 15px;
+}

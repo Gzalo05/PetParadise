@@ -1,0 +1,135 @@
+/*---------------Start-Banner---------------*/
+    .bannerimg {
+    position: relative;
+    width: 100%;
+    height: 500px; 
+    overflow: hidden;
+  }
+  
+  .bannerimg img {
+    width: 100%;
+    height: 130%;
+    object-fit: cover;
+    z-index: 2;
+  }
+  
+  .bannertxt {
+    position: static;
+    margin-top: -250px; 
+    margin-left: 70%;
+    width: 450px;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    z-index: 3;
+    padding: 20px;
+    background: white;
+    border-radius: 25px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.168);
+  }
+  
+  .bannertxt h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .bannertxt p {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .bannertxt a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    transition: 0.2s ease-in;
+    border-radius: 25px;
+  }
+  .bannertxt a:hover
+  {
+  background: #0070965c;
+  }
+  @media screen and (max-width : 858px)
+  { 
+  .bannertxt {
+  width: 230px;
+  height: 300px;
+  margin-top: -300px;  
+  }
+  .bannertxt h1 
+  {
+    font-size: 18px;
+  }
+  .bannertxt p
+  {
+    font-size: 11px;
+  }
+  .bannerimg img {
+    height: 80%;
+  }
+  }
+  /*---------------End-Banner---------------*/
+  
+  /*---------------Start-Catalogue----------*/
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  .container-custom {
+    background-color: #7ad9e382;
+    padding: 40px;
+    border-radius: 20px;
+  }
+  .btn-light {
+  border: solid 1px black;
+  }
+  /*---------------End-Catalogue----------*/
+  
+  .row>*
+  {
+    margin-top: 50px !important;
+  }
+
+
+  /*---------------Start-adoption----------*/
+  .adopt-section {
+    background-color: #ffd700;
+    border-radius: 20px;
+    padding: 50px;
+  }
+  .adopt-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+  .btn-custom {
+    background-color: #000;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 20px;
+    display: inline-block;
+  }
+  .btn-custom .paw-icon {
+    margin-right: 8px;
+    font-size: 26px;
+  }
+  .text-custom {
+    font-size: 2rem;
+  }
+  /*---------------End-adoption----------*/
+  
+   /*----------Start-LostPets--------------*/
+  .LostPets-section
+  {
+    background-color: #e8e4dc;
+    border-radius: 20px;
+    padding: 50px;
+  }
+  .btn-custom .paw-icon {
+    margin-right: 8px;
+    font-size: 26px;
+  }
+   /*----------End-LostPets--------------*/
+   
